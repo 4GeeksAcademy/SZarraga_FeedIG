@@ -1,42 +1,85 @@
-body{
-    margin: auto;
-}
-.container-fluid{
-    
-}
-nav {
-    z-index: -1;
-}
-.nav-tabs {
-    text-align:center;
+body {
+  margin: auto;
 }
 
-.headerButton{
-    margin-right: 5px;
+.headerButton {
+  margin-right: 5px;
 }
 
-.dropdown{
-    margin-right:100px;
+.dropdown {
+  margin-right: 100px;
 }
 
-.logout{
-    border-top:1px solid lightgray;
+.logout {
+  border-top: 1px solid lightgray;
 }
 
-.logout a{
-    color:rgba(255, 0, 0, 0.719);
+.logout a {
+  color: rgba(255, 0, 0, 0.719);
 }
 
 .modal-backdrop {
-    z-index: 0;
-  }
+  z-index: 0;
+}
 .modalText {
-    font-size:16px;
-    font-weight: 500;
+  font-size: 16px;
+  font-weight: 500;
 }
-.nPostButtons{
-    padding:5px;
+.nPostButtons {
+  padding: 5px;
 }
-.nPostButtons button{
-    border: 1px solid lightgray;
+.nPostButtons button {
+  border: 1px solid lightgray;
+}
+.container {
+  margin: auto;
+}
+.col {
+  padding: 5px;
+  margin: 0;
+}
+.row {
+  /* border: 1px solid red;*/
+  padding: 0;
+}
+.col,
+.col-1,
+.col-2,
+.col-6,
+.col-8 {
+  /*border: 1px solid blue;*/
+  padding: 0;
+  margin: 0;
+}
+.postImg img {
+  padding: 7px;
+  width: 100%;
+}
+.post {
+  margin-top: 15px;
+  width: 25%;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.postEngage {
+  display: block;
+  font-size: 0.7em;
+  padding: 15px;
+}
+
+.postDescription {
+  font-size: 0.9em;
+  padding: 16px;
+  text-align: justify;
+}
+
+.profileIcon {
+  padding: 15px;
+}
+
+.settingsButton {
+  padding: 15px;
+  text-align: right;
 }
