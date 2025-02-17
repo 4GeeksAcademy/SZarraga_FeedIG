@@ -6,6 +6,10 @@ body {
   margin-right: 5px;
 }
 
+.dropdown {
+  margin-right: 100px;
+}
+
 .logout {
   border-top: 1px solid lightgray;
 }
@@ -13,9 +17,7 @@ body {
 .logout a {
   color: rgba(255, 0, 0, 0.719);
 }
-.nav-tabs {
-  margin-top: 40px;
-}
+
 .modal-backdrop {
   z-index: 0;
 }
