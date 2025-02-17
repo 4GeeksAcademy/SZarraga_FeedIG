@@ -37,8 +37,13 @@ body {
   margin: 0;
 }
 .row {
-  /* border: 1px solid red;*/
+  border: 1px solid red;
   padding: 0;
+}
+
+.imgGrid {
+  padding: 0px;
+  object-fit: contain;
 }
 .col,
 .col-1,
@@ -50,13 +55,13 @@ body {
   margin: 0;
 }
 .postImg img {
-  padding: 7px;
   width: 100%;
+  padding: 7px;
 }
 .post {
   margin-top: 15px;
   width: 25%;
-  border: 1px solid lightgray;
+  /*border: 1px solid lightgray;*/
   border-radius: 10px;
   padding: 5px;
 }
